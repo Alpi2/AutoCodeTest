@@ -1,70 +1,77 @@
 # AI-Powered Autonomous Test Generation Platform
 
-About The Project
+## About The Project
 
-The "AI-Powered Autonomous Test Generation Platform" is an innovative project aiming to revolutionize software development processes through automation. This platform analyzes your codebase and leverages leading artificial intelligence models and intelligent agent architectures to automatically generate high-quality unit, integration, and UI tests. Our goal is to alleviate the burden of test writing, accelerate development cycles, and continuously enhance software quality.
+The **AI-Powered Autonomous Test Generation Platform** is an innovative project aiming to revolutionize software development processes through automation. This platform analyzes your codebase and leverages leading artificial intelligence models and intelligent agent architectures to automatically generate high-quality unit, integration, and UI tests. Our goal is to alleviate the burden of test writing, accelerate development cycles, and continuously enhance software quality.
 
 By minimizing reliance on cloud-based APIs, this project offers a secure and data-private, fully on-premise, and Docker-isolated solution.
 
-Key Features
+---
 
-Intelligent Test Generation: AI-driven automatic test code generation based on code analysis.
+## 🔑 Key Features
 
-Multi-Test Framework Support: Supports popular test frameworks like Jest, Vitest, Mocha, Cypress, Playwright.
+- **Intelligent Test Generation**: AI-driven automatic test code generation based on code analysis.
 
-Local AI Integration: Runs open-source Large Language Models (LLMs) such as LLaMA, Mistral, Deepseek within local Docker containers.
+- **Multi-Test Framework Support**: Supports popular test frameworks like Jest, Vitest, Mocha, Cypress, Playwright.
 
-Hybrid Model Access: Provides access to free and selected API models (e.g., Grok, Gemini) via the OpenRouter platform.
+- **Local AI Integration**: Runs open-source Large Language Models (LLMs) such as LLaMA, Mistral, Deepseek within local Docker containers.
 
-Autonomous Agent Architecture: Intelligent agents utilizing a Thought-Action-Observation loop and capable of interacting with tools (linter, test runner).
+- **Optional Cloud Integration**: Users can enable selected cloud-based models (e.g., Grok, Gemini) for enhanced generation accuracy — at their own discretion.
 
-Docker Isolation: Every service (AI models, agents, analysis tools) runs completely isolated in Docker containers, ensuring easy setup and portability.
+- **Autonomous Agent Architecture**: Intelligent agents utilizing a Thought-Action-Observation loop and capable of interacting with tools (linter, test runner).
 
-CLI and UI (Optional): Command-line interface for quick usage or a user-friendly React-based web interface.
+- **Docker Isolation**: Every service (AI models, agents, analysis tools) runs completely isolated in Docker containers, ensuring easy setup and portability.
 
-Feedback Loop: Automatically runs generated test code, analyzes failing tests, and directs the AI agent to refine the tests.
+- **CLI and UI (Optional)**: Command-line interface for quick usage or a user-friendly React-based web interface.
 
-Data Privacy: All operations occur on your local system; your code and data never leave your environment.
+- **Feedback Loop**: Automatically runs generated test code, analyzes failing tests, and directs the AI agent to refine the tests.
 
-Why This Project?
+- **Data Privacy**: All operations occur on your local system; your code and data never leave your environment.
+
+---
+
+## 🎯 Why This Project?
+
 In today's software landscape, test writing is a critical yet time-consuming part of the development process. This platform offloads repetitive test writing tasks to AI, allowing developers to focus on more complex problems. With its local operation principle, it can be securely used even with sensitive codebases.
 
-Technology Overview
+---
 
-Backend: Node.js (TypeScript), Express.js
+## 🧠 Technology Overview
 
-AI Services: Python (FastAPI), llama.cpp (for GGUF models)
+- **Backend**: Node.js (TypeScript), Express.js
 
-Containerization: Docker, Docker Compose
+- **AI Services**: Python (FastAPI), llama.cpp (for GGUF models)
 
-Code Analysis: Esprima, SWC, TS-Morph
+- **Containerization**: Docker, Docker Compose
 
-Testing Tools: Jest, Vitest, Mocha, Cypress, Playwright
+- **Code Analysis**: Esprima, SWC, TS-Morph
 
-Database: MongoDB (Local)
+- **Testing Tools**: Jest, Vitest, Mocha, Cypress, Playwright
 
-Job Queue: Redis, BullMQ
+- **Database**: MongoDB (Local)
 
-CLI: Commander.js
+- **Job Queue**: Redis, BullMQ
 
-UI: React / Next.js (Optional)
+- **CLI**: Commander.js
 
-Setup (Quick Start)
-To get the project running on your local machine, Docker and Docker Compose must be installed.
+- **UI**: React / Next.js (Optional)
 
-Clone the repository: `git clone <https://github.com/Alpi2/AutoCodeTest.git>`
+---
 
-Download necessary AI model weights into the models/ directory (e.g., Mistral-7B-Instruct-v0.2 GGUF).
+## ⚙️ Setup (Quick Start)
 
-Start all services with Docker Compose: docker-compose up --build -d
+> To get the project running on your local machine, Docker and Docker Compose must be installed.
 
-Start generating tests using the CLI tool: npm run cli generate <file_path.ts>
+```bash
+# Clone the repository
+git clone https://github.com/Alpi2/AutoCodeTest.git
 
-For more detailed setup and usage information, please refer to the Documentation file.
+# Download necessary AI model weights into the models/ directory
+# (e.g., Mistral-7B-Instruct-v0.2 GGUF)
 
-Contributing
-Our project is developed with an open-source spirit. We welcome your ideas, bug reports, or code contributions! For more information, please see the Contribution Guide.
+# Start all services
+docker-compose up --build -d
 
-License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+# Start generating tests using the CLI tool
+npm run cli generate <file_path.ts>
+```
