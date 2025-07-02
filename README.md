@@ -58,6 +58,27 @@ In today's software landscape, test writing is a critical yet time-consuming par
 
 ---
 
+## 📸 Preview
+
+<p align="center">
+  <img src="./images/Daschboard.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Generate.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Generate1.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/History.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Setting.png" width="600"/>
+</p>
 ## ⚙️ Setup (Quick Start)
 
 > To get the project running on your local machine, Docker and Docker Compose must be installed.
@@ -67,6 +88,7 @@ In today's software landscape, test writing is a critical yet time-consuming par
 git clone https://github.com/Alpi2/AutoCodeTest.git
 
 # Download necessary AI model weights into the models/ directory
+
 # (e.g., Mistral-7B-Instruct-v0.2 GGUF)
 
 # Start all services
