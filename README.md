@@ -61,7 +61,7 @@ In today's software landscape, test writing is a critical yet time-consuming par
 ## 📸 Preview
 
 <p align="center">
-  <img src="./images/Daschboard.png" width="600"/>
+  <img src="./images/Dashboard.png" width="600"/>
 </p>
 
 <p align="center">
@@ -79,6 +79,7 @@ In today's software landscape, test writing is a critical yet time-consuming par
 <p align="center">
   <img src="./images/Setting.png" width="600"/>
 </p>
+
 ## ⚙️ Setup (Quick Start)
 
 > To get the project running on your local machine, Docker and Docker Compose must be installed.

@@ -50,6 +50,28 @@ Das Schreiben von Tests ist ein kritischer, aber zeitaufwändiger Bestandteil de
 
 - **UI**: React / Next.js (optional)
 
+## 📸 Preview
+
+<p align="center">
+  <img src="./images/Dashboard.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Generate.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Generate1.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/History.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Setting.png" width="600"/>
+</p>
+
 ## ⚙️ Einrichtung (Schnellstart)
 
 > Um das Projekt lokal auszuführen, müssen Docker und Docker Compose installiert sein.

@@ -50,6 +50,28 @@ Günümüz yazılım dünyasında test yazmak kritik fakat zaman alan bir süre�
 
 - **UI (İsteğe Bağlı)**: React / Next.js
 
+## 📸 Preview
+
+<p align="center">
+  <img src="./images/Dashboard.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Generate.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Generate1.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/History.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="./images/Setting.png" width="600"/>
+</p>
+
 ## ⚙️ Kurulum (Hızlı Başlangıç)
 
 > Bu projeyi yerel makinenizde çalıştırmak için Docker ve Docker Compose kurulu olmalıdır.
